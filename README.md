@@ -12,6 +12,9 @@ Install from source. Requires the use of the Eclipse Plug-in Development Tools.
 * Select "Install into host"
 * Click "Finish"
 
+##Use
+Hit F8 to set the screen size to 1024x768.
+
 ##Support
 
 There is none. Open an issue and we'll try to help where we can.
