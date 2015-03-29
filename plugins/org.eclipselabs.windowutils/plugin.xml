@@ -36,13 +36,13 @@
             commandId="org.eclipselabs.windowutils.commands.resize1024x768"
             contextId="org.eclipse.ui.contexts.window"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="F8">
+            sequence="M1+F12">
       </key>
       <key
             commandId="org.eclipselabs.windowutils.commands.screenshot"
             contextId="org.eclipse.ui.contexts.window"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
-            sequence="SHIFT+F8">
+            sequence="M1+M2+F12">
       </key>
    </extension>
 
