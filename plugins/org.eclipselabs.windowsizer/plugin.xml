@@ -4,7 +4,7 @@
    <extension
          point="org.eclipse.ui.commands">
       <category
-            description="Commands that set the size of the active workbench window."
+            description="Commands that do things with the active workbench window."
             id="org.eclipselabs.windowsizer.commands.category"
             name="Window Resizing">
       </category>
@@ -13,12 +13,21 @@
             id="org.eclipselabs.windowsizer.commands.resize1024x768"
             name="Resize to 1024x768">
       </command>
+      <command
+            categoryId="org.eclipselabs.windowsizer.commands.category"
+            id="org.eclipselabs.windowsizer.commands.screenshot"
+            name="Screen shot">
+      </command>
    </extension>
    <extension
          point="org.eclipse.ui.handlers">
       <handler
             class="org.eclipselabs.windowsizer.handlers.WindowSizer1024x768Handler"
             commandId="org.eclipselabs.windowsizer.commands.resize1024x768">
+      </handler>
+      <handler
+            class="org.eclipselabs.windowsizer.handlers.ScreenshotHandler"
+            commandId="org.eclipselabs.windowsizer.commands.screenshot">
       </handler>
    </extension>
    <extension
@@ -28,6 +37,12 @@
             contextId="org.eclipse.ui.contexts.window"
             schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
             sequence="F8">
+      </key>
+      <key
+            commandId="org.eclipselabs.windowsizer.commands.screenshot"
+            contextId="org.eclipse.ui.contexts.window"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="SHIFT+F8">
       </key>
    </extension>
 
