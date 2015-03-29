@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Workbench Window Utilities">
+      A collection of utilities for doing random stuff with the workbench window.
+   </description>
+   <feature url="features/org.eclipselabs.windowutils.feature_0.1.0.201503291819.jar" id="org.eclipselabs.windowutils.feature" version="0.1.0.201503291819">
+      <category name="org.eclipselabs.windowutils"/>
+   </feature>
+   <category-def name="org.eclipselabs.windowutils" label="Window Utilities"/>
+</site>
