@@ -8,7 +8,7 @@
  * Contributors:
  *    Wayne Beaton - initial API and implementation
  *******************************************************************************/
-package org.eclipselabs.windowsizer.handlers;
+package org.eclipselabs.windowutils.handlers;
 
 import org.eclipse.core.commands.AbstractHandler;
 import org.eclipse.core.commands.ExecutionEvent;

@@ -8,7 +8,7 @@
  * Contributors:
  *    Wayne Beaton - initial API and implementation
  *******************************************************************************/
-package org.eclipselabs.windowsizer.handlers;
+package org.eclipselabs.windowutils.handlers;
 
 import java.util.Timer;
 import java.util.TimerTask;

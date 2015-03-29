@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: WindowSizer
-Bundle-SymbolicName: org.eclipselabs.windowsizer;singleton:=true
+Bundle-Name: Workbench Window Utilities
+Bundle-SymbolicName: org.eclipselabs.windowutils;singleton:=true
 Bundle-Version: 0.1.0.qualifier
 Bundle-Vendor: The Eclipse Foundation
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
