@@ -27,9 +27,6 @@ import org.eclipse.ui.handlers.HandlerUtil;
  */
 public class WindowSizer1024x768Handler extends AbstractHandler {
 
-	public WindowSizer1024x768Handler() {
-	}
-
 	/**
 	 * Get the current workbench window and set its size to 1024x768.
 	 */
