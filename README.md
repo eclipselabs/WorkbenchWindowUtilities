@@ -1,19 +1,22 @@
-#WindowSizer
+#Workbench Window Utilities
 
-This is a very simple Eclipse plug-in that sets the workbench window size to predetermined dimensions.
+This is a simple Eclipse plug-in that provides some sort of handy functionality for the workbench window
+born out of the desire to be able to take consistently-szed screen shots.
+
+Functionality includes:
+
+* Hit ctrl+F12 to set the workbench window size to 1024x768; and
+* Hit ctrl+shift+F12 to take a screen sot (after a five second delay)
 
 ##Installation
 
-Install from source. Requires the use of the Eclipse Plug-in Development Tools.
+Install from source. Requires the use of the Eclipse Plug-in Development Environment (PDE).
 
 * Load the source into your workspace;
-* Select "Export > Deployable plug-ins and fragments";
-* Mark the checkbox next to the org.eclipselabs.windowsizer plug-in;
-* Select "Install into host"
-* Click "Finish"
+* Build the site; and
+* Use the p2 installer to install from that site.
 
-##Use
-Hit F8 to set the screen size to 1024x768.
+At some point, we'll put this on bintray or something.
 
 ##Support
 
