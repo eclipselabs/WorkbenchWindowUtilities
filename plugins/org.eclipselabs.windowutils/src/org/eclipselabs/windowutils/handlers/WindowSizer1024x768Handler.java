@@ -32,18 +32,16 @@ public class WindowSizer1024x768Handler extends AbstractHandler {
 	 */
 	public Object execute(ExecutionEvent event) throws ExecutionException {
 		final IWorkbenchWindow window = HandlerUtil.getActiveWorkbenchWindowChecked(event);
-		if (window == null)
-			return null;
 		final Shell shell = window.getShell();
 		final Display display = shell.getDisplay();
-
 		display.syncExec(new Runnable() {
-
+			
 			@Override
 			public void run() {
 				window.getShell().setSize(1024, 768);
 			}
 		});
+
 		return null;
 	}
 
